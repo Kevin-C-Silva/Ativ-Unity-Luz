@@ -49,6 +49,9 @@ Alcance: 10 -> 453
 Shadow type: No shadows -> Soft shadows
 Shape Radius: -- (nenhum) -> 0.3
 
+<img width="1101" height="507" alt="Captura de tela 2026-08-21 080703" src="https://github.com/user-attachments/assets/233708c7-8ded-4554-a717-1ce16fa3cbdb" />
+
+
 ## Area light
 
 O area light era pra ter sido aplicado em um *outdoor*, porém o area light não estava funcionando no momento por conta de uma atualização no Unity.
