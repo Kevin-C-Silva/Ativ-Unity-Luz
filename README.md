@@ -1,24 +1,28 @@
 # Ativ-Unity-Luz
-Projeto do Unity com o propósito de testar diferentes tipos de luz sobre objetos com texturas distintas.
+Projeto do Unity com o propósito de testar e explicar diferentes tipos de luz sobre objetos.
 
-Feito por: 
-<br> Guilherme Diogo de Moraes 
-<br> Kevin Cavalcante Silva
+Feito por:  <br>
+Guilherme Diogo de Moraes  <br>
+Kevin Cavalcante Silva
 
 ## Directional Light
+
+O directional light é um tipo de luz principalmente utilizado para cobrir áreas extensas, o exemplo mais comum sendo o sol dos projetos no Unity. Sua área corresponde à geometria de uma esfera, embora seu raio de atuação se assemelhe à um cilindro.
 
 O "sol" criado junto do projeto do Unity é um directional light, e dessa forma o utilizamos como exemplo.
 <img width="1099" height="504" alt="Captura de tela 2026-08-21 074710" src="https://github.com/user-attachments/assets/12d43f92-9251-4e6c-a880-143ecc7f7713" />
 
 Alteramos a intensidade e temperatura da luz para que ela se pareça mais com o sol do entardecer.
 
-Valores:
-Temperatura: 5000 -> 1500
+Valores: <br>
+Temperatura: 5000 -> 1500 <br>
 Intensidade: 2 -> 100
 
 <img width="1101" height="504" alt="Captura de tela 2026-08-21 075016" src="https://github.com/user-attachments/assets/4d2fe95a-6ab6-47a7-b085-4ea7d7925106" />
 
 ## Spot Light
+
+O spot light, tem um ponto focal na origem emitindo luz para uma direção com trajetória em formato de cone que se dissipa até acabar seu raio de atuação. É comumente utilizado em fontes de iluminação.
 
 O spot light foi utilizado nos postes (um de cada lado do ponto de ônibus) em nosso projeto.
 *Note que tiramos a luz do sol para facilitar a visualização das luzes*
@@ -27,14 +31,16 @@ O spot light foi utilizado nos postes (um de cada lado do ponto de ônibus) em n
 
 Alteramos a cor das luzes para lembrar as chamadas luzes amarelas, embora tenham uma coloração alaranjada, inclusive as luzes tendo uma cor laranja. Além disso, mudamos os valores do "ângulo do ponto interno e externo" da luz, ou seja, a diferença do ponto focal da luz até o ponto onde a luz deixa de ser visível para um valor maior (assim tendo um raio de atuação maior) e também mudamos os valores para que sejam iguais (desse modo, não existe "degradê" do ponto focal até o fim do raio de atuação).
 
-Valores:
-Cor - Hexadecimal: FFFFFF (Branco) -> FFA500 (Laranja)
-Intensidade: 30 -> 999
-Inner / Outer Spot Angle: 1 30 -> 80 80
+Valores: <br>
+Cor - Hexadecimal: FFFFFF (Branco) -> FFA500 (Laranja) <br>
+Intensidade: 30 -> 999 <br>
+Inner / Outer Spot Angle: 1 30 -> 80 80 <br>
 
 <img width="1101" height="505" alt="Captura de tela 2026-08-21 080110" src="https://github.com/user-attachments/assets/d2a40ecd-1c31-4b45-9ea3-e55d3dbe41ad" />
 
 ## Point Light
+
+O point light, assim como o spot light, tem um ponto focal na origem, nesse caso, no centro, emitindo luz para todas as direções que se dissipa até acabar seu raio de atuação. É comumente utilizado para destacar locais e objetos.
 
 O point light, em nosso projeto, foi aplicado na luz presente no ponto de ônibus.
 
@@ -42,16 +48,18 @@ O point light, em nosso projeto, foi aplicado na luz presente no ponto de ônibu
 
 Mudamos a cor da luz para vermelho, assim como aumentamos a intensidade e alcance da mesma, e por fim, decidimos mudar o tipo de sombra de "sem sombra" para "sombras suaves" e inserimos um valor para raio das sombras.
 
-Valores:
-Cor: FFFFFF (Branco) -> EC3636 (Vermelho)
-Intensidade:  7 -> 37
-Alcance: 10 -> 453
-Shadow type: No shadows -> Soft shadows
-Shape Radius: -- (nenhum) -> 0.3
+Valores: <br>
+Cor: FFFFFF (Branco) -> EC3636 (Vermelho) <br>
+Intensidade:  7 -> 37 <br>
+Alcance: 10 -> 453 <br>
+Shadow type: No shadows -> Soft shadows <br>
+Shape Radius: -- (nenhum) -> 0.3 <br>
 
 <img width="1101" height="507" alt="Captura de tela 2026-08-21 080703" src="https://github.com/user-attachments/assets/233708c7-8ded-4554-a717-1ce16fa3cbdb" />
 
 
 ## Area light
+
+O area light pode ter os formatos mais específicos de retângulo e disco, emitindo luz para uma direção, ela é comumente utilizada para fontes de luz menos intensas.
 
 O area light era pra ter sido aplicado em um *outdoor*, porém o area light não estava funcionando no momento por conta de uma atualização no Unity.
